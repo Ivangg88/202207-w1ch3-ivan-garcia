@@ -28,3 +28,33 @@ main section > button {
   flex-direction: column;
   align-items: center;
 }
+
+@media (min-width: 960) {
+  h1 {
+    color: orange;
+    font-size: 15px;
+  }
+
+  main section h2 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+
+  main section > button {
+    margin-top: 10px;
+    border-radius: 0 15px 15px 15px;
+    padding: 12px;
+    background-color: orange;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    border: none;
+    align-self: flex-end;
+  }
+
+  .pets-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
